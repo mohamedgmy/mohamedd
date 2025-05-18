@@ -1,0 +1,99 @@
+/* 
+ * محمد - مطور ويب محترف
+ * ملف تحسينات SEO وسهولة الوصول
+ */
+
+/* تحسين سهولة الوصول */
+:root {
+  --focus-outline: 2px solid var(--primary-color);
+}
+
+/* تحسين التركيز للعناصر التفاعلية */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+  outline: var(--focus-outline);
+  outline-offset: 2px;
+}
+
+/* تحسين نسبة التباين للنصوص */
+.high-contrast {
+  color: var(--light-color);
+  background-color: var(--dark-color);
+}
+
+/* تحسين قابلية القراءة */
+p, .description, .about-description, .service-description {
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+/* تحسين سهولة الوصول للنماذج */
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+/* إضافة تسميات مخفية للنماذج (للقارئات الشاشية) */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* تحسين التباين للأزرار */
+.btn {
+  font-weight: 600;
+}
+
+/* تحسين سهولة الوصول للصور */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* تحسين التنقل بلوحة المفاتيح */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--primary-color);
+  color: var(--dark-color);
+  padding: 8px;
+  z-index: 1001;
+  transition: top 0.3s;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* تحسين قابلية القراءة على الأجهزة المحمولة */
+@media (max-width: 768px) {
+  p, .description, .about-description, .service-description {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+  
+  h1, h2, h3 {
+    word-wrap: break-word;
+  }
+}
+
+/* تحسين الأداء */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

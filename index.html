@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="محمد - مطور ويب محترف، متخصص في تصميم وتطوير مواقع الويب التفاعلية والمتجاوبة">
+    <meta name="keywords" content="مطور ويب، تصميم مواقع، برمجة، تطوير ويب، مواقع متجاوبة، HTML، CSS، JavaScript">
+    <title>محمد - مطور ويب محترف</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/accessibility.css">
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="images/logo.jpg" alt="شعار محمد مطور ويب" class="logo-img">
+                </div>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active">الرئيسية</a></li>
+                    <li><a href="#about" class="nav-link">من أنا</a></li>
+                    <li><a href="#skills" class="nav-link">مهاراتي</a></li>
+                    <li><a href="#projects" class="nav-link">أعمالي</a></li>
+                    <li><a href="#services" class="nav-link">خدماتي</a></li>
+                    <li><a href="#contact" class="nav-link">تواصل معي</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- القسم الرئيسي -->
+    <section id="home" class="hero">
+        <div class="particles-container" id="particles-js"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="glitch" data-text="محمد">Mohamed  </h1>
+                <h2 class="subtitle">مطور ويب محترف</h2>
+                <p class="description">أقدم حلول برمجية متكاملة وتصاميم مواقع إبداعية تجمع بين الجمال والوظائف المتقدمة</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">استعرض أعمالي</a>
+                    <a href="#contact" class="btn btn-secondary">تواصل معي</a>
+                </div>
+            </div>
+            <!-- <div class="hero-image">
+                <div class="floating-screens">
+                    <div class="screen screen-1"></div>
+                    <div class="screen screen-2"></div>
+                    <div class="screen screen-3"></div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- قسم من أنا -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">من أنا</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+             <div class="about-image">
+                <div class="image-wrapper">
+                    <div class="image-bg" style="background: url('images/profile.jpg') no-repeat center center/cover;"></div>
+                    <div class="image-frame"></div>
+                </div>
+            </div>
+                </div>
+                <div class="about-text">
+                    <h3 class="about-subtitle">مرحباً، أنا محمد</h3>
+                    <p class="about-description">
+                        مطور ويب محترف مع أكثر من 5 سنوات من الخبرة في تصميم وتطوير مواقع الويب المتميزة. أتخصص في إنشاء تجارب مستخدم فريدة وواجهات تفاعلية جذابة تجمع بين الإبداع والوظائف المتقدمة.
+                    </p>
+                    <p class="about-description">
+                        أعمل على تقديم حلول برمجية متكاملة تلبي احتياجات العملاء وتساعدهم على تحقيق أهدافهم الرقمية. أؤمن بأن التصميم الجيد يجب أن يكون جميلاً وعملياً في نفس الوقت.
+                    </p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span class="info-title">البريد الإلكتروني:</span>
+                            <span class="info-value">mohame7alas3d@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-title">الموقع:</span>
+                            <span class="info-value">الرياض، المملكة العربية السعودية</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-title">المجال:</span>
+                            <span class="info-value">تطوير الويب، تصميم واجهات المستخدم</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم المهارات -->
+    <section id="skills" class="skills section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">مهاراتي</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skills-text">
+                    <h3 class="skills-subtitle">المهارات التقنية والبرمجية</h3>
+                    <p class="skills-description">
+                        أمتلك مجموعة واسعة من المهارات التقنية التي تمكنني من تنفيذ مشاريع متنوعة بكفاءة عالية، من المواقع البسيطة إلى التطبيقات المعقدة.
+                    </p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card" data-aos="fade-up">
+                        <div class="skill-icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <h4 class="skill-title">HTML5</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="skill-icon">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <h4 class="skill-title">CSS3</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="skill-icon">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <h4 class="skill-title">JavaScript</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="skill-icon">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <h4 class="skill-title">React</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="skill-icon">
+                            <i class="fab fa-node-js"></i>
+                        </div>
+                        <h4 class="skill-title">Node.js</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="500">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h4 class="skill-title">SQL</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="70%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="other-skills">
+                    <h3 class="other-skills-title">مهارات أخرى</h3>
+                    <div class="tags">
+                        <span class="tag">UI/UX Design</span>
+                        <span class="tag">Responsive Design</span>
+                        <span class="tag">Bootstrap</span>
+                        <span class="tag">Tailwind CSS</span>
+                        <span class="tag">SASS</span>
+                        <span class="tag">Git</span>
+                        <span class="tag">RESTful API</span>
+                        <span class="tag">GraphQL</span>
+                        <span class="tag">WordPress</span>
+                        <span class="tag">SEO</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الأعمال -->
+    <section id="projects" class="projects section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">أعمالي</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">الكل</button>
+                <button class="filter-btn" data-filter="web">تطوير ويب</button>
+                <button class="filter-btn" data-filter="ui">واجهات مستخدم</button>
+                <button class="filter-btn" data-filter="app">تطبيقات</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <div class="project-img">
+                        <img src="images/project1.jpg" alt="لوحة تحكم احترافية">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">لوحة تحكم احترافية</h3>
+                        <p class="project-category">تطوير ويب</p>
+                        <div class="project-overlay">
+                            <div class="project-details">
+                                <p>تصميم وتطوير لوحة تحكم متكاملة لإدارة المشاريع والتحليلات مع واجهة مستخدم متطورة</p>
+                                <div class="project-tech">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JavaScript</span>
+                                    <span>React</span>
+                                </div>
+                                <a href="#" class="btn btn-sm">عرض المشروع</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="ui">
+                    <div class="project-img">
+                        <img src="images/project2.jpg" alt="تطبيق تسوق إلكتروني">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">تطبيق تسوق إلكتروني</h3>
+                        <p class="project-category">واجهات مستخدم</p>
+                        <div class="project-overlay">
+                            <div class="project-details">
+                                <p>تصميم واجهة مستخدم لتطبيق جوال للتسوق الإلكتروني بتجربة مستخدم فريدة وسلسة</p>
+                                <div class="project-tech">
+                                    <span>Figma</span>
+                                    <span>Adobe XD</span>
+                                    <span>UI/UX</span>
+                                </div>
+                                <a href="#" class="btn btn-sm">عرض المشروع</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="app">
+                    <div class="project-img">
+                        <img src="images/project3.jpg" alt="منصة تعليمية إلكترونية">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">منصة تعليمية إلكترونية</h3>
+                        <p class="project-category">تطبيقات</p>
+                        <div class="project-overlay">
+                            <div class="project-details">
+                                <p>تطوير منصة تعليمية متكاملة مع نظام إدارة محتوى وواجهة مستخدم سهلة الاستخدام</p>
+                                <div class="project-tech">
+                                    <span>React</span>
+                                    <span>Node.js</span>
+                                    <span>MongoDB</span>
+                                </div>
+                                <a href="#" class="btn btn-sm">عرض المشروع</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-img">
+                        <img src="images/project4.jpg" alt="هوية بصرية احترافية">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">هوية بصرية احترافية</h3>
+                        <p class="project-category">تطوير ويب</p>
+                        <div class="project-overlay">
+                            <div class="project-details">
+                                <p>تصميم هوية بصرية متكاملة لشركة تقنية مع شعار وعناصر بصرية متناسقة</p>
+                                <div class="project-tech">
+                                    <span>Photoshop</span>
+                                    <span>Illustrator</span>
+                                    <span>Brand Design</span>
+                                </div>
+                                <a href="#" class="btn btn-sm">عرض المشروع</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="ui">
+                    <div class="project-img">
+                        <img src="images/project5.jpg" alt="متجر إلكتروني">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">متجر إلكتروني</h3>
+                        <p class="project-category">واجهات مستخدم</p>
+                        <div class="project-overlay">
+                            <div class="project-details">
+                                <p>تصميم وتطوير متجر إلكتروني متكامل مع نظام دفع وإدارة مخزون</p>
+                                <div class="project-tech">
+                                    <span>PHP</span>
+                                    <span>Laravel</span>
+                                    <span>MySQL</span>
+                                    <span>Vue.js</span>
+                                </div>
+                                <a href="#" class="btn btn-sm">عرض المشروع</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="app">
+                    <div class="project-img">
+                        <img src="images/project6.jpg" alt="حملات إعلانية">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">حملات إعلانية</h3>
+                        <p class="project-category">تطبيقات</p>
+                        <div class="project-overlay">
+                            <div class="project-details">
+                                <p>تصميم وإدارة حملات إعلانية متكاملة عبر منصات التواصل الاجتماعي وجوجل</p>
+                                <div class="project-tech">
+                                    <span>Google Ads</span>
+                                    <span>Facebook Ads</span>
+                                    <span>Analytics</span>
+                                </div>
+                                <a href="#" class="btn btn-sm">عرض المشروع</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الخدمات -->
+    <section id="services" class="services section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">خدماتي</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="service-title">تطوير مواقع الويب</h3>
+                    <p class="service-description">
+                        تصميم وتطوير مواقع ويب احترافية متجاوبة مع جميع الأجهزة وسهلة الاستخدام.
+                    </p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="service-title">تطبيقات الويب</h3>
+                    <p class="service-description">
+                        تطوير تطبيقات ويب تفاعلية وديناميكية باستخدام أحدث التقنيات والإطارات.
+                    </p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3 class="service-title">تصميم واجهات المستخدم</h3>
+                    <p class="service-description">
+                        تصميم واجهات مستخدم جذابة وسهلة الاستخدام تعزز تجربة المستخدم وتحقق أهداف العمل.
+                    </p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3 class="service-title">متاجر إلكترونية</h3>
+                    <p class="service-description">
+                        إنشاء متاجر إلكترونية متكاملة مع أنظمة دفع آمنة وإدارة مخزون فعالة.
+                    </p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3 class="service-title">تحسين محركات البحث</h3>
+                    <p class="service-description">
+                        تحسين مواقع الويب لمحركات البحث لزيادة الظهور وجذب المزيد من الزوار.
+                    </p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3 class="service-title">استضافة وصيانة</h3>
+                    <p class="service-description">
+                        خدمات استضافة موثوقة وصيانة دورية لضمان أداء موقعك بشكل مثالي.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الاتصال -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">تواصل معي</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>العنوان</h3>
+                            <p>الرياض، المملكة العربية السعودية</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>البريد الإلكتروني</h3>
+                            <p>mohame7alas3d@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>الهاتف</h3>
+                            <p>00963992866341   </p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://wa.me/963992866341" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.linkedin.com/in/%D9%85%D8%AD%D9%85%D8%AF-%D8%A7%D8%B3%D8%B9%D8%AF-%D8%AD%D8%B3%D9%86-%D8%A7%D9%84%D8%A7%D8%B3%D8%B9%D8%AF-24901b364?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/m_.alas3d?igsh=MTl4MGRkNXlycXVsdg==" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/share/1KfJVmkCgK/" class="social-link"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="الاسم" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="البريد الإلكتروني" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="الموضوع" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="الرسالة" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">إرسال الرسالة</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- التذييل -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.jpg" alt="شعار محمد مطور ويب" class="footer-logo-img">
+                    <p class="footer-text">
+                        مطور ويب محترف يقدم حلول برمجية متكاملة وتصاميم مواقع إبداعية
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <h3 class="footer-title">روابط سريعة</h3>
+                    <ul class="footer-menu">
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#about">من أنا</a></li>
+                        <li><a href="#skills">مهاراتي</a></li>
+                        <li><a href="#projects">أعمالي</a></li>
+                        <li><a href="#services">خدماتي</a></li>
+                        <li><a href="#contact">تواصل معي</a></li>
+                    </ul>
+                </div>
+                <!-- <div class="footer-newsletter">
+                    <h3 class="footer-title">النشرة البريدية</h3>
+                    <p>اشترك في النشرة البريدية للحصول على آخر الأخبار والتحديثات</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="البريد الإلكتروني" required>
+                        <button type="submit" class="btn btn-sm">اشتراك</button>
+                    </form>
+                </div> -->
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">
+                    &copy; 2025 محمد - مطور ويب محترف. جميع الحقوق محفوظة.
+                </p>
+                <div class="social-links">
+                        <a href="https://wa.me/963992866341" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.linkedin.com/in/%D9%85%D8%AD%D9%85%D8%AF-%D8%A7%D8%B3%D8%B9%D8%AF-%D8%AD%D8%B3%D9%86-%D8%A7%D9%84%D8%A7%D8%B3%D8%B9%D8%AF-24901b364?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/m_.alas3d?igsh=MTl4MGRkNXlycXVsdg==" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/share/1KfJVmkCgK/" class="social-link"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- زر التمرير لأعلى -->
+    <a href="#" class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- سكريبتات JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
